@@ -1,0 +1,44 @@
+body {
+    background: #1abc9c;                     /* фон страницы */
+    font-family: Tahoma, Arial, sans-serif;  /* шрифт по умолчанию */
+    color: #333;                             /* цвет текста */
+}
+
+/* заголовок первого уровня — шрифт с засечками */
+h1 {
+    font-family: "Times New Roman", Georgia, serif;
+}
+
+/* обычные абзацы и h4 */
+p, h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/* подзаголовки 4 уровня — отдельный размер */
+h4 {
+    font-size: 18px;
+}
+
+/* списки без лишних отступов сверху */
+ul, ol {
+    margin: 0;
+}
+
+/* таблица: границы и ширина на 100% */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th,
+table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* картинка: высота 30px, ширина пропорционально */
+img {
+    height: 30px;
+    width: auto;
+}
